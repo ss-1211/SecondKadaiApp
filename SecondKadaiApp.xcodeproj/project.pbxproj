@@ -12,6 +12,7 @@
 		E30F772322E30265008A0430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30F772122E30265008A0430 /* Main.storyboard */; };
 		E30F772522E30268008A0430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30F772422E30268008A0430 /* Assets.xcassets */; };
 		E30F772822E30268008A0430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30F772622E30268008A0430 /* LaunchScreen.storyboard */; };
+		E30F773022E3058E008A0430 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30F772F22E3058E008A0430 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E30F772422E30268008A0430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E30F772722E30268008A0430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E30F772922E30268008A0430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30F772F22E3058E008A0430 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E30F771D22E30265008A0430 /* AppDelegate.swift */,
 				E30F771F22E30265008A0430 /* ViewController.swift */,
+				E30F772F22E3058E008A0430 /* ResultViewController.swift */,
 				E30F772122E30265008A0430 /* Main.storyboard */,
 				E30F772422E30268008A0430 /* Assets.xcassets */,
 				E30F772622E30268008A0430 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				E30F772022E30265008A0430 /* ViewController.swift in Sources */,
 				E30F771E22E30265008A0430 /* AppDelegate.swift in Sources */,
+				E30F773022E3058E008A0430 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.shun.sasaki.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.shun.sasaki.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
